@@ -1,0 +1,26 @@
+{
+    "candidate_name": "Alex Techton",
+    "summary": "Full-stack developer with 8 years of experience, specializing in Python microservices and Google Cloud Platform. Highly proficient in building scalable, real-time applications using Cloud Run, Pub/Sub, and Firestore. I have a strong portfolio of functional demos and technical articles. My primary impact has been in modernizing supply chain logistics.",
+    "projects": [
+        {
+            "name": "Real-Time Inventory Tracker",
+            "tech": ["Python", "Flask", "Cloud Run", "Firestore", "Vertex AI"],
+            "details": "Deployed a microservice on Cloud Run using Flask and Gunicorn. It processes streaming inventory data via Pub/Sub and stores state in Firestore. Used Vertex AI for predictive demand forecasting (Google AI Usage). The architecture is documented in a three-part technical blog series (Blog Excellence)."
+        },
+        {
+            "name": "Logistics Route Optimizer",
+            "tech": ["Python", "BigQuery", "Dataflow"],
+            "details": "Developed an ETL pipeline that cleans and aggregates massive geospatial data in BigQuery for route optimization models. The resulting application is used by a major European logistics firm, reducing their fleet mileage by 15% (Impact Score)."
+        }
+    ],
+    "expertise_keywords": [
+        "Cloud Run",
+        "Firestore",
+        "BigQuery",
+        "Vertex AI",
+        "Gemini API",
+        "Kubernetes",
+        "Microservices",
+        "Supply Chain"
+    ]
+}
