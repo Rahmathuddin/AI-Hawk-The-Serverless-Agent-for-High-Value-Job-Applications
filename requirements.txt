@@ -1,0 +1,5 @@
+Flask
+google-cloud-aiplatform
+google-cloud-firestore
+gunicorn  # A production web server for Flask
+pydantic  # For defining Python models and JSON schemas
