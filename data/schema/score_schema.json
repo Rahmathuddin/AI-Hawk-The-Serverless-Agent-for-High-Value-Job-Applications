@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "weighted_score": {
+      "type": "integer",
+      "description": "The final weighted score (0-100) based on all criteria."
+    },
+    "gcp_db_match": {
+      "type": "boolean",
+      "description": "True if the job mentions BigQuery, Cloud SQL, Spanner, or Firestore."
+    },
+    "missing_keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Top 3 keywords from the JD not strongly present in the candidate profile."
+    },
+    "summary_recommendation": {
+      "type": "string",
+      "description": "A concise (10-word) recommendation (e.g., 'High match, prioritize for submission')."
+    }
+  },
+  "required": ["weighted_score", "gcp_db_match", "missing_keywords", "summary_recommendation"]
+}
